@@ -35,6 +35,14 @@ live Takibi data. In Claude Code the skill is fully functional. In claude.ai
 chat it currently serves as guidance, because chat cannot execute the CLI; a
 remote MCP connector for live chat queries is planned as a follow-up.
 
+## Links
+
+- Homepage: [takibibase.com](https://takibibase.com)
+- App: [app.takibibase.com](https://app.takibibase.com)
+- Agent docs: [takibibase.com/docs/agents](https://takibibase.com/docs/agents)
+- CLI (`takibibase` on npm): [npmjs.com/package/takibibase](https://www.npmjs.com/package/takibibase)
+- Main repo: [tofuchick3n/takibi-base](https://github.com/tofuchick3n/takibi-base)
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
