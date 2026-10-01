@@ -1,6 +1,6 @@
 # Takibi for Claude
 
-Takibi is an agent-first knowledge base: humans curate projects, folders, and
+Takibi Base (Takibi) is an agent-first knowledge base: humans curate projects, folders, and
 uploads, and agents consume them through scoped keys with extractive,
 cited answers. This plugin teaches Claude how to work with Takibi: asking
 questions against the evidence, searching documents and agent notes, reading
