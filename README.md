@@ -49,6 +49,12 @@ with your key file.
 - CLI (`takibibase` on npm): [npmjs.com/package/takibibase](https://www.npmjs.com/package/takibibase)
 - Main repo: [tofuchick3n/takibi-base](https://github.com/tofuchick3n/takibi-base)
 
+## Directory submission
+
+Submitted to the Claude directory. Review status is tracked in the
+[developer portal](https://claude.ai/directory/manage/plugins/16a5524b-1934-41ea-995d-4d10b360427b)
+(submitting organization only).
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
