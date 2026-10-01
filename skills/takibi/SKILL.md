@@ -14,14 +14,14 @@ error hints.
 
 ## Setup (once)
 
-- CLI: `npx takibibase …` (zero-install) or `npm install -g takibibase`.
+- CLI: `npm install -g takibibase` (recommended; provides the `takibi`
+  command used below), or zero-install via `npx takibibase …` — with npx,
+  prefix every command, e.g. `npx takibibase ask -q "…"`.
 - Key: the user creates a scoped key in their Takibi workspace (a Profile)
   and saves the `<publicId>.<secret>` line to `~/.takibi/key` (`chmod 600`).
   The key is never printed, never pasted in chat, never committed. If a
   command says the key is missing, stop and ask the user to set it up.
-- Base URL defaults to Takibi's hosted servers
-  (`https://app.takibibase.com`). Override with `$TAKIBI_BASE_URL` or one
-  URL line in `~/.takibi/config` (for local development).
+- The CLI talks to Takibi's hosted servers (`https://app.takibibase.com`).
 - Projects: `takibi projects` lists what this key can reach. `--project`
   takes a name or a UUID; single-grant keys may omit it.
 - First probe: `takibi version` (needs no key; shows build status).
